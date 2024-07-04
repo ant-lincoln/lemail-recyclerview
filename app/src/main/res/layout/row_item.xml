@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="4dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shadow"
+        android:paddingTop="8dp"
+        android:paddingStart="8dp"
+        android:paddingEnd="4dp"
+        android:paddingBottom="16dp">
+
+        <TextView
+            android:id="@+id/textIcon"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/circle"
+            android:gravity="center"
+            android:text="L"
+            android:textColor="@color/white"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/textUser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="0dp"
+            android:layout_toStartOf="@id/textDate"
+            android:layout_toEndOf="@id/textIcon"
+            android:ellipsize="marquee"
+            android:singleLine="true"
+            android:textStyle="bold"
+            tools:text="Texto principal" />
+
+        <TextView
+            android:id="@+id/textSubject"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textUser"
+            android:layout_marginStart="16dp"
+            android:layout_toStartOf="@id/starMail"
+            android:layout_toEndOf="@id/textIcon"
+            android:ellipsize="marquee"
+            android:singleLine="true"
+            tools:text="Texto assunto" />
+
+        <TextView
+            android:id="@+id/textPreview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textSubject"
+            android:layout_marginStart="16dp"
+            android:layout_toStartOf="@id/starMail"
+            android:layout_toEndOf="@id/textIcon"
+            android:ellipsize="marquee"
+            android:singleLine="true"
+            tools:text="Texto preview" />
+
+        <TextView
+            android:id="@+id/textDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:ellipsize="marquee"
+            android:padding="4dp"
+            android:textColor="@android:color/darker_gray"
+            tools:text="12 Ago" />
+
+        <ImageView
+            android:id="@+id/starMail"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:layout_alignTop="@id/textPreview"
+            android:layout_alignParentEnd="true"
+            android:src="@android:drawable/star_off" />
+
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>
