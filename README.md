@@ -1,6 +1,6 @@
 # 📋 LeMail - Caixa de Entrada de Email
 
-<img src="https://seumelhorcaminho.com/screen-recycler.gif">
+![Screen_recording_20240703_191553 (2)](https://github.com/ant-lincoln/lemail-recyclerview/assets/19896054/0d1c1cdc-351c-4470-b884-9c164975d26f)
 
 O LeMail é um app Android, fruto do aprofundamenot dos estudos, desenvolvido em Kotlin. Simula uma caixa de entrada de email, utilizando RecyclerView para exibir os emails. Ele oferece funcionalidades avançadas como exclusão de emails via swipe e reordenação dos emails por meio de arrastar e soltar.
 
