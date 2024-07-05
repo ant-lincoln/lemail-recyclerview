@@ -10,7 +10,7 @@ RecyclerView Dinâmico:
 <br>•Reordenação de Emails: Possibilidade de reorganizar a ordem dos emails arrastando e soltando os itens na lista.
 <br>•Adição Simulada de Emails Novos: Um Floating Action Button (FAB) adiciona novos emails à caixa de entrada, simulando a chegada de emails novos.
 
-##Tecnologias Utilizadas
+### Tecnologias Utilizadas
 <br>•Kotlin
 <br>•RecyclerView
 <br>•Material Design Components
